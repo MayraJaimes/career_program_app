@@ -6,14 +6,14 @@ body {
 }
 
 .navbar {
-  background-color: #fafafa;
+  background-color: #f5d355;
   height: 100px;
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  border-color: #fafafa;
+  border-color: #f5d355;
   padding-top: 22px;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 #about .description-area{
-  padding: 120px 100px;
+  padding: 80px;
 }
 
 #about h2 {
@@ -87,7 +87,7 @@ body {
   background-position: center;
   background-size: cover; 
   width: 100%;
-  height: 220px;
+  height: 320px;
 }
 
 .information {
