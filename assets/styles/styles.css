@@ -45,7 +45,7 @@ body {
 }
 
 #homeTab {
-  color:#64d7d7;
+  color:#6fc4b8;
   letter-spacing: -.03em;
   font-size: 31px;
 }
@@ -137,6 +137,7 @@ h1 {
   font-size: 18px;
   letter-spacing: .2em;
   margin: 17px 0;
+  /* font-style: italic; */
 }
 
 #main h4 {
@@ -165,7 +166,7 @@ h1 {
 /* FOOTER */
 
 #footer {
-  background-color: #081359;
+  background-color: #6fc4b8;
   height: 500px;
   padding: 100px 100px;
 }
@@ -206,7 +207,7 @@ h1 {
   border-width: 2px;
   border-style: solid;
   border-color: #fff;
-  background-color: transparent;
+  background-color: #081359;
   transition: color .15s ease-out;
   padding: 13px 26px;
   font-size: 11px;
