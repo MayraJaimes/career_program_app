@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-  background-color: #f5d355;
+  background: #f5d355 !important;
   height: 100px;
   font-weight: 700;
   font-style: normal;
@@ -137,7 +137,11 @@ h1 {
   font-size: 18px;
   letter-spacing: .2em;
   margin: 17px 0;
-  /* font-style: italic; */
+}
+
+.slogan {
+  font-style: italic;
+  background-color: #6fc4b8;
 }
 
 #main h4 {
