@@ -44,8 +44,12 @@ body {
   display: inline-block;
 }
 
+.dropdown-menu li {
+  text-transform: none;
+}
+
 #homeTab {
-  color:#6fc4b8;
+  color:#3ec3af;
   letter-spacing: -.03em;
   font-size: 31px;
 }
@@ -56,16 +60,13 @@ body {
 
 .content {
   text-align: center;
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 
-               0px 8px 13px rgba(0, 0, 0, 0.1),
-               0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 #main .content {
   padding: 240px 100px;
 }
 
-#main, #about {
+#main, .pages {
   min-height: 830px;
 }
 
@@ -79,11 +80,11 @@ body {
   background-size: cover;
 }
 
-#about .description-area{
+.pages .description-area{
   padding: 80px;
 }
 
-#about h2 {
+.pages h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 34px;
@@ -91,7 +92,7 @@ body {
   line-height: 1.2em;
   color: #081359;
   margin-top: 0;
-  margin-bottom: 37px;
+  margin-bottom: 10px;
 }
 
 .picture-area {
@@ -109,6 +110,7 @@ body {
   letter-spacing: .03em;
   line-height: 1.9em;
   padding: 17px;
+  padding-bottom: 0;
 }
 
 .information-area {
@@ -130,18 +132,25 @@ h1 {
 
 .btn-default {
   color: #fafafa;
-  background-color: #091353;
-  border-color: #091353;
+  background: #091353;
+  border: none;
   border-radius: 300px;
   padding: 25px 46px;
   font-size: 18px;
   letter-spacing: .2em;
   margin: 17px 0;
+  text-shadow: none;
 }
 
 .slogan {
   font-style: italic;
-  background-color: #6fc4b8;
+  background: #3ec3af;
+  border-color: #3ec3af;
+}
+
+.sloganText {
+  font-style: italic;
+  font-weight: bold;
 }
 
 #main h4 {
@@ -170,17 +179,16 @@ h1 {
 /* FOOTER */
 
 #footer {
-  background-color: #6fc4b8;
+  background: #6fc4b8;
   height: 500px;
   padding: 100px 100px;
 }
 
 #footer .nav-items a {
-  font-size: 12px;
+  font-size: 1.3em;
   font-style: normal;
   letter-spacing: .2em;
   line-height: 1em;
-  padding-right: 1em;
   text-decoration: none;
   color: white;
   transition: color .15s ease-out;
@@ -193,6 +201,7 @@ h1 {
 #footer .icon {
   padding: 40px 0 30px 0;
   font-size: 60px;
+  color: #091353;
 }
 
 #footer h3 {
@@ -207,17 +216,15 @@ h1 {
 
 #footer button {
   margin: 25px;
-  font-weight: 700;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #fff;
-  background-color: #081359;
+  border: none;
+  background: #081359;
   transition: color .15s ease-out;
   padding: 13px 26px;
   font-size: 11px;
 }
 
 #footer button:hover {
-  background-color: white;
-  color:081359;
+  background: white;
+  border: none;
+  color: #081359;
 }
