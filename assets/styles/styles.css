@@ -34,6 +34,10 @@ body {
   font-style: normal;
 }
 
+.dropdown-menu>li>a {
+  color:white;
+}
+
 .navbar-nav {
   width: 100%;
   text-align: center;
@@ -46,6 +50,30 @@ body {
 
 .dropdown-menu li {
   text-transform: none;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background: #081359;
+}
+
+.dropdown-menu .divider {
+  width:100%;
+  height: 2px;
+  margin: 0 0px 3px 0px;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background: #081359;
+  color:white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+  background: #081359;
+  color:white;
+}
+
+.dropdown-menu>li>a {
+  padding: 3px 10px;
 }
 
 #homeTab {
@@ -98,6 +126,22 @@ body {
 .picture-area {
   background-image: url(airBalloons.jpg);
   background-position: center;
+  background-size: cover; 
+  width: 100%;
+  height: 320px;
+}
+
+#philosophy .picture-area {
+  background-image: url(https://images.unsplash.com/photo-1521167502-4e1d2338b6d6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a7535e4ff29512df441fd23d965edc63&auto=format&fit=crop&w=1062&q=80);
+  background-position: center;
+  background-size: cover; 
+  width: 100%;
+  height: 320px;
+}
+
+#education .picture-area {
+  background-image: url(https://images.unsplash.com/photo-1421986527537-888d998adb74?ixlib=rb-0.3.5&s=82803864920d13cfd198e849e8a79e77&auto=format&fit=crop&w=1050&q=80);
+  background-position: center top;
   background-size: cover; 
   width: 100%;
   height: 320px;
@@ -216,7 +260,7 @@ h1 {
 
 #footer button {
   margin: 25px;
-  border: none;
+  border: white solid 2px;
   background: #081359;
   transition: color .15s ease-out;
   padding: 13px 26px;
